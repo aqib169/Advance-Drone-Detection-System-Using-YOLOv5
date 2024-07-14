@@ -13,6 +13,20 @@
 ## Overview
 Welcome to the repository for our Final Year Project (FYP) on advanced drone detection using deep learning techniques. Drones, also known as unmanned aerial vehicles (UAVs), are increasingly prevalent in various industries, posing new challenges for security and privacy. In this project, we present our approach to detecting drones in real-time, leveraging the YOLOv5 architecture.
 
+## Steps to run the project
+- Clone the Repo
+- Install Python on your system
+- Install dependencies and requirements "pip install requirements.txt"
+- Download or clone the yolov5 model on your system " https://github.com/ultralytics/yolov5 "
+- Open app.py file and change the path of files
+  model = torch.hub.load('ultralytics/yolov5', 'custom', path=r"C:\Users\Aqib\Documents\GitHub\Advance-Drone-Detection-System-Using-YOLOv5\best.pt", source='github')
+  change this code of line with your path, if open in vs code right click on best.pt -> click copy path and paste it.
+  gr.Video(r"C:\Users\Aqib\Documents\GitHub\Advance-Drone-Detection-System-Using-YOLOv5\Drone Detection.mp4", width=800, height=600)
+  change the path of the sample video, if open in vs code right click on Drone Detection.mp4 -> click copy path and paste it.
+- Run the project you will see this out put click on that link 127.0...
+  ![image](https://github.com/user-attachments/assets/a0e32c1f-99fa-4dd5-9ff2-56aa248c0013)
+
+
 ### Why YOLOv5?
 Due to system constraints, we opted to use the YOLOv5 trained model file (`best.pt`) instead of YOLOv8 for training. YOLOv5 offers comparable performance while requiring less computational power, making it ideal for our setup. Despite this deviation, our project remains focused on delivering accurate and efficient drone detection capabilities.
 
