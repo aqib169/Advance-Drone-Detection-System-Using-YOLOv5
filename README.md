@@ -25,6 +25,8 @@ Welcome to the repository for our Final Year Project (FYP) on advanced drone det
   change the path of the sample video, if open in vs code right click on Drone Detection.mp4 -> click copy path and paste it.
 - Run the project you will see this out put click on that link 127.0...
   ![image](https://github.com/user-attachments/assets/a0e32c1f-99fa-4dd5-9ff2-56aa248c0013)
+  ![image](https://github.com/user-attachments/assets/0fd6ea44-a783-4ef1-aaa1-fe61a171696c)
+
 
 
 ### Why YOLOv5?
